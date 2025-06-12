@@ -28,7 +28,3 @@ func romanToInt(s string) int {
 	return number
 
 }
-
-func main() {
-	fmt.Println(romanToInt("MCMXCIV"))
-}
