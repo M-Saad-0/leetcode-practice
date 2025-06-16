@@ -1,5 +1,6 @@
+package main
+
 import (
-	"fmt"
 	"regexp"
 	"strings"
 )
