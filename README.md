@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/M-Saad-0/leetcode-practice/tree/master/0141-linked-list-cycle) |
+| [0242-valid-anagram](https://github.com/M-Saad-0/leetcode-practice/tree/master/0242-valid-anagram) |
 ## Linked List
 |  |
 | ------- |
@@ -42,4 +43,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0792-binary-search](https://github.com/M-Saad-0/leetcode-practice/tree/master/0792-binary-search) |
+## String
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/M-Saad-0/leetcode-practice/tree/master/0242-valid-anagram) |
+## Sorting
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/M-Saad-0/leetcode-practice/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
