@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/M-Saad-0/leetcode-practice/tree/master/0136-single-number) |
+| [0792-binary-search](https://github.com/M-Saad-0/leetcode-practice/tree/master/0792-binary-search) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -37,4 +38,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/M-Saad-0/leetcode-practice/tree/master/0141-linked-list-cycle) |
+## Binary Search
+|  |
+| ------- |
+| [0792-binary-search](https://github.com/M-Saad-0/leetcode-practice/tree/master/0792-binary-search) |
 <!---LeetCode Topics End-->
