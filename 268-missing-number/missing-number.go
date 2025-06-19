@@ -18,10 +18,10 @@ import "sort"
 func missingNumber(nums []int) int {
     n := len(nums)
     sort.Sort(sort.IntSlice(nums))
-    for i:=0; i<=n; i++ {
-        if i == n || i != nums[i] {
+    for i:=0; i<n; i++ {
+        if i != nums[i] {
             return i
         }
     }
-    return -1
+    return n
 }
