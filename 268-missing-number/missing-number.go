@@ -1,18 +1,23 @@
-func missingNumber(nums []int) int {
-    myMap := map[int]int{}
-    for _, k := range nums {
-        myMap[k] = 1
-    }
-    for i:=0; i<=len(nums); i++{
-        _, e := myMap[i]
-        if(!e){
-            return i
-        }
-    }
+//Slow
+// func missingNumber(nums []int) int {
+//     myMap := map[int]int{}
+//     for _, k := range nums {
+//         myMap[k] = 1
+//     }
+//     for i:=0; i<=len(nums); i++{
+//         _, e := myMap[i]
+//         if(!e){
+//             return i
+//         }
+//     }
 
-    return -1
+//     return -1
     
-}
+// }
+
+
+//Slower
+
 
 // import "sort"
 // func missingNumber(nums []int) int {
@@ -27,3 +32,30 @@ func missingNumber(nums []int) int {
 //     }
 //     return n
 // }
+
+
+// func missingNumber(nums []int) int {
+//     myMap := map[int]int{}
+//     for _, k := range nums {
+//         myMap[k] = 1
+//     }
+//     for i:=0; i<=len(nums); i++{
+//         _, e := myMap[i]
+//         if(!e){
+//             return i
+//         }
+//     }
+
+//     return -1
+    
+// }
+
+func missingNumber(nums []int) int {
+    n := len(nums)
+    expectedSum := (n * (n + 1))/2
+    actualSum := 0
+    for i:=0; i<n; i++ {
+        actualSum += nums[i]
+    }
+    return expectedSum - actualSum
+}
