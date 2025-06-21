@@ -20,7 +20,6 @@ func diameterOfBinaryTree(root *TreeNode) int {
     if right + left > maxD {
         maxD = right + left
     }
-    fmt.Printf("%d, %d\n", right, left)
     return 1 + max(right, left) 
     }
 
