@@ -12,15 +12,14 @@ func middleNode(head *ListNode) *ListNode {
         head = head.Next
     }
     
-    midL := l[len(l)/2:len(l)]
     
   
 
 
     dummy := &ListNode{}
     head1 := dummy
-    for i:=0; i<len(midL); i++  {
-        head1.Next = &ListNode{Val: midL[i]}
+    for i:=len(l)/2; i<len(l); i++  {
+        head1.Next = &ListNode{Val: l[i]}
         head1 = head1.Next 
     }
     return dummy.Next
