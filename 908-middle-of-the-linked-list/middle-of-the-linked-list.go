@@ -11,14 +11,10 @@ func middleNode(head *ListNode) *ListNode {
         l=append(l, head.Val)
         head = head.Next
     }
-    fmt.Println(l)
-    midL := []int{}
-    if len(l)%2 == 0 {
-        midL = l[(len(l)/2):len(l)]
-    } else {
-        midL = l[(len(l)/2):len(l)]
-    }
-    fmt.Println(midL)
+    
+    midL := l[len(l)/2:len(l)]
+    
+  
 
 
     dummy := &ListNode{}
