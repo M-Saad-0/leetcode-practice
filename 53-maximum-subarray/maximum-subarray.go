@@ -14,7 +14,5 @@ func maxSubArray(nums []int) int {
         }
           
     }
-    fmt.Print(sum)
-
     return maxSum
 }
